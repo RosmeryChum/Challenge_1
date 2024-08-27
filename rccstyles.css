@@ -1,0 +1,75 @@
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #afe0df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:#afe0df;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #afe0df;
+    border-radius: 4px;
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    padding: 24px;
+    width: 48%;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #f29da3;
+    color: #afe0df;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.muneco__imagen{
+    width: 23%;
+    align-items: space-between
+}
+
+
+@media (max-width: 1200px) {
+
+    .header{
+         padding: 10%;  
+    }
+    .header__menu{
+        justify-content: center;
+    }
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+    
+}
